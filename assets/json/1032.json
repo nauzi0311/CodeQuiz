@@ -1,0 +1,15 @@
+{
+    "id": 1032,
+    "title": "関数5",
+    "question":"#include <stdio.h>\n\nint global = 100;\n\nvoid global_change(){\n\tglobal = 200;\n}\n\nvoid print_global(){\n\tprintf(\"%d\",global);\n}\n\nint main(){\n\tint global = 5;\n\tglobal_change();\n\tprintf(\"%d\",global);\n\tprint_global();\n\treturn 0;\n}",
+    "output": "???",
+    "answer": [
+        "2005",        
+        "55",
+        "5200",
+        "200200",
+        3
+    ],
+    "exp":50,
+    "point":1
+}

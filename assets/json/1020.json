@@ -1,0 +1,15 @@
+{
+    "id": 1020,
+    "title": "繰り返し文2",
+    "question":"#include <stdio.h>\n\nint main(){\n\tint i = 0;\n\tdo{\n\t\tprintf(\"%d\",i);\n\t\ti++;\n\t}while(???);\n}",
+    "output": "01234",
+    "answer": [
+        "i < 5",
+        "i == 5",
+        "i << 5",
+        "i && 5",
+        1
+    ],
+    "exp":30,
+    "point":1
+}

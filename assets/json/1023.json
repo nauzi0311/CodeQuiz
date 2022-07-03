@@ -1,0 +1,15 @@
+{
+    "id": 1023,
+    "title": "繰り返し文5",
+    "question":"#include <stdio.h>\n\nint main(){\n\tint i;\n\tfor(i = 0;i <= 10;i++);\n\tprintf(\"%d\",i);\n}",
+    "output": "???",
+    "answer": [
+        "012345678910",        
+        "12345678910",
+        "0123456789",
+        "11",
+        4
+    ],
+    "exp":40,
+    "point":1
+}

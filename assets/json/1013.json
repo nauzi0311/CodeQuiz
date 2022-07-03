@@ -1,0 +1,15 @@
+{
+    "id": 1013,
+    "title": "if文2",
+    "question":"#include <stdio.h>\n\nint main(){\n\tint a = 1;\n\tint b = 1;\n\tif(???){\n\t\tprintf(\"Situation 1\");\n\t}else{\n\t\tprintf(\"Situation 2\");\n\t}\n\treturn 0;\n}",
+    "output": "Situation 2",
+    "answer": [
+        "a <= b",
+        "a << b",
+        "a != b",
+        "a & b",
+        3
+    ],
+    "exp":30,
+    "point":1
+}

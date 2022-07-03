@@ -1,0 +1,15 @@
+{
+    "id": 1031,
+    "title": "関数4",
+    "question":"#include <stdio.h>\n\nint search(const int v[],int key,int size){\n\tint i = 0;\n\tfor(;;i++){\n\t\tif(i == size)return -1;\n\t\tif(???)return i;\n\t}\n}\n\nint main(){\n\tint list[6] = {56,89,4,5,3,91};\n\tint key = 5;\n\tint hit = search(list,key,6);\n\tprintf(\"%d\",hit);\n\treturn 0;\n}",
+    "output": "3",
+    "answer": [
+        "v[i] == key",        
+        "list[i] == key",
+        "v[i] != key",
+        "list[i] != key",
+        1
+    ],
+    "exp":50,
+    "point":1
+}

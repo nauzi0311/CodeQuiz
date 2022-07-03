@@ -1,0 +1,15 @@
+{
+    "id": 1016,
+    "title": "if文5",
+    "question":"#include <stdio.h>\n\nint main(){\n\tint a = 1,b = 1,c = 1;\n\tif(???){\n\t\tprintf(\"True\");\n\t}else{\n\t\tprintf(\"False\");\n\t}\n\treturn 0;\n}",
+    "output": "True",
+    "answer": [
+        "a == b == c",
+        "(a == b) == c",
+        "(a == b) && (b == c)",
+        "(a == b) & (b == c)",
+        3
+    ],
+    "exp":30,
+    "point":1
+}

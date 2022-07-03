@@ -1,0 +1,15 @@
+{
+    "id": 1024,
+    "title": "繰り返し文6",
+    "question":"#include <stdio.h>\n\nint main(){\n\tint i;\n\tint n = 18;\n\tfor(i = 1;i <= n;i++){\n\t\tif(???) printf(\"%d \",i);\n\t}\n}",
+    "output": "1 2 3 6 9 18",
+    "answer": [
+        "n % i",        
+        "(n / i) == 0",
+        "(n % i) == 0",
+        "n / i",
+        3
+    ],
+    "exp":40,
+    "point":1
+}

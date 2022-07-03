@@ -1,0 +1,15 @@
+{
+    "id": 1015,
+    "title": "if文4",
+    "question":"#include <stdio.h>\n\nint main(){\n\tint a = 10,b = 20,max;\n\tmax = ???;\n\tprintf(\"%d\",max);\n\treturn 0;\n}",
+    "output": "20",
+    "answer": [
+        "a < b ? (b : a)",
+        "a < b ? b : a",
+        "(a > b) ? b : a",
+        "(a < b) ? a : b",
+        2
+    ],
+    "exp":30,
+    "point":1
+}

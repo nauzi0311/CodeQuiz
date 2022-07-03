@@ -1,0 +1,15 @@
+{
+    "id": 1019,
+    "title": "繰り返し文1",
+    "question":"#include <stdio.h>\n\nint main(){\n\tint i = 0;\n\twhile(i < 10){\n\t\tif(i == 10) printf(\"Situation 1\");\n\t\tif(i == 9) printf(\"Situation 2\");\n\t\ti++;\n\t}\n}",
+    "output": "???",
+    "answer": [
+        "Situation 1",
+        "Situation 2",
+        "Situation 1Situation 2",
+        "Situation 2Situation 1",
+        2
+    ],
+    "exp":30,
+    "point":1
+}

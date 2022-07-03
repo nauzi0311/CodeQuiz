@@ -1,0 +1,25 @@
+設計
+
+要件定義
+対象：言語初学者(１回生or２回生)
+習得内容：C or Javaの文法習得
+
+Questionの作成の仕方
+データはJSONで管理する。
+{
+    "language":"C or Java"
+    "level" : (int 1~3)//1:easy,2:normal,3:hard
+    "title":"(タイトル)",
+    "question_upper":"(問題の空欄より手前の文字列)",
+    "question_lowwer":"(問題の空欄より後ろの文字列)",
+    "question_length":"(文字数)orL(行数)",
+    "output":"",
+    "choice":nullable[
+        "choice1",
+        "choice2",
+        "choice3",
+        "choice4"
+    ],
+    "ans":nullable(int 正解の選択肢の番号)
+}
+

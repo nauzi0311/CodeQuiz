@@ -1,0 +1,15 @@
+{
+    "id": 1018,
+    "title": "switch文2",
+    "question":"#include <stdio.h>\n\nint main(){\n\tint a = 1;\n\tswitch (a)\n\t{\n\tcase 1: \n\t\tprintf(\"1\");\n\n\tcase 2:\n\t\tprintf(\"2\");\n\n\tcase 3:\n\t\tprintf(\"3\");\n\t\tbreak;\n\n\tcase 4:\n\t\tprintf(\"4\");\n\t\tbreak;\n\t\n\tdefault:\n\t\tprintf(\"default\");\n\t\tbreak;\n\t}\n}",
+    "output": "???",
+    "answer": [
+        "1",
+        "123",
+        "default",
+        "4",
+        2
+    ],
+    "exp":30,
+    "point":1
+}

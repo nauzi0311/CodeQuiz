@@ -1,0 +1,15 @@
+{
+    "id": 1026,
+    "title": "配列1",
+    "question":"#include <stdio.h>\n\nint main(){\n\tint i;\n\tint array[7] = {1,2,3,4,5,6,7};\n\tfor(i = 0;i < 3;i++){\n\t\tint temp = array[i];\n\t\t???;\n\t\tarray[6 - i] = temp;\n\t}\n\tfor(i = 0;i < 7;i++) printf(\"%d\",array[i]);\n}",
+    "output": "7654321",
+    "answer": [
+        "array[7 - i] = array[i]",        
+        "array[i] = temp",
+        "array[i] = array[6 - i]",
+        "array[6 - i] = array[i]",
+        3
+    ],
+    "exp":50,
+    "point":1
+}

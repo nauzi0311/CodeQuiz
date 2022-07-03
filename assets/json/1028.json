@@ -1,0 +1,15 @@
+{
+    "id": 1028,
+    "title": "関数1",
+    "question":"#include <stdio.h>\n\n???{\n\tif(n1 > n2) return n1; else return n2;\n}\n\nint main(){\n\tint a = 10,b = 20;\n\tprintf(\"%d\",max(a,b));\n\treturn 0;\n}",
+    "output": "20",
+    "answer": [
+        "int max(int n1,int n2)",
+        "max(int n1,int n2)",
+        "int max()",
+        "void max(void n1,void n2)",
+        1
+    ],
+    "exp":50,
+    "point":1
+}

@@ -1,0 +1,15 @@
+{
+    "id": 1030,
+    "title": "関数3",
+    "question":"#include <stdio.h>\n\nvoid set_zero(int i[],int size){\n\tint j;\n\tfor(j = 0;j < size;j++){\n\t\ti[j] = 0;\n\t}\n}\n\nint main(){\n\tint i[5] = {1,2,3,4,5};\n\tint j;\n\tset_zero(i,5);\n\tfor(j = 0;j < 5;j++) printf(\"%d\",i[j]);\n\treturn 0;\n}",
+    "output": "???",
+    "answer": [
+        "00000",        
+        "12345",
+        "00005",
+        "10000",
+        1
+    ],
+    "exp":50,
+    "point":1
+}

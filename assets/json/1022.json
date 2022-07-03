@@ -1,0 +1,15 @@
+{
+    "id": 1022,
+    "title": "繰り返し文4",
+    "question":"#include <stdio.h>\n\nint main(){\n\tint i;\n\tfor(???){\n\t\tprintf(\"%d\",i);\n\t}\n}",
+    "output": "012345678910",
+    "answer": [
+        "i++;i <= 10;i = 0",        
+        "i = 0;i <= 10;i++",
+        "i <= 10;i = 0;i++",
+        "i <= 10;i++;i = 0",
+        2
+    ],
+    "exp":40,
+    "point":1
+}

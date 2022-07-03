@@ -1,0 +1,15 @@
+{
+    "id": 1029,
+    "title": "関数2",
+    "question":"#include <stdio.h>\n\nint max(int n1,int n2){\n\tif(n1 > n2) return n1; else return n2;\n}\n\nint max3(int n1,int n2,int n3){\n\treturn ???(max(n1,n2),max(n2,n3));\n}\n\nint main(){\n\tint a = 10,b = 20,c = 30;\n\tprintf(\"%d\",max3(a,b,c));\n\treturn 0;\n}",
+    "output": "30",
+    "answer": [
+        "int",        
+        "max",
+        "int max",
+        "(int)",
+        2
+    ],
+    "exp":50,
+    "point":1
+}

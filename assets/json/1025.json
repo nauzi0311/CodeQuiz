@@ -1,0 +1,15 @@
+{
+    "id": 1025,
+    "title": "繰り返し文7",
+    "question":"#include <stdio.h>\n\nint main(){\n\tint i;\n\tfor(i = 0;i < 10;i++){\n\t\tif(i == 3) ???;\n\t\tprintf(\"%d\",i);\n\t}\n}",
+    "output": "012",
+    "answer": [
+        "i = 10",        
+        "break",
+        "continue",
+        "i = -1",
+        2
+    ],
+    "exp":40,
+    "point":1
+}

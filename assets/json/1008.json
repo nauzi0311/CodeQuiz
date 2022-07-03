@@ -1,0 +1,15 @@
+{
+    "id": 1008,
+    "title": "定数1",
+    "question":"#include <stdio.h>\n\nint main(){\n\tint a = 033;\n\tprintf(\"%d\",a);\n\treturn 0;\n}",
+    "output": "???",
+    "answer": [
+        "033",
+        "1B",
+        "a",
+        "27",
+        4
+    ],
+    "exp":20,
+    "point":1
+}

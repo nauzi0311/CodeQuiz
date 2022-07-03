@@ -1,0 +1,15 @@
+{
+    "id": 1027,
+    "title": "配列2",
+    "question":"#include <stdio.h>\n\nint main(){\n\tint i;\n\tint array1[7] = {1,2,3,4,5,6,7};\n\tint array2[5];\n\t???;\n\tfor(i = 0;i < 5;i++) printf(\"%d\",array2[i]);\n}",
+    "output": "12345",
+    "answer": [
+        "array1 = array2",        
+        "array2 = array1",
+        "array2[5] = array[5]",
+        "for(i = 0;i < 5;i++) array2[i] = array1[i]",
+        4
+    ],
+    "exp":50,
+    "point":1
+}

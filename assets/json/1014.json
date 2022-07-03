@@ -1,0 +1,15 @@
+{
+    "id": 1014,
+    "title": "if文3",
+    "question":"#include <stdio.h>\n\nint main(){\n\tint a = 10,b = 20,max;\n\tif(a < b) max = b; else max = a;\n\tprintf(\"%d\",max);\n\treturn 0;\n}",
+    "output": "???",
+    "answer": [
+        "10",
+        "20",
+        "max",
+        "b",
+        2
+    ],
+    "exp":30,
+    "point":1
+}

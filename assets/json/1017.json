@@ -1,0 +1,15 @@
+{
+    "id": 1017,
+    "title": "switch文1",
+    "question":"#include <stdio.h>\n\nint main(){\n\tint a = ???;\n\tswitch (a)\n\t{\n\tcase 1: \n\t\tprintf(\"Situation 1\");\n\t\tbreak;\n\t\n\tdefault:\n\t\tprintf(\"Situation 2\");\n\t\tbreak;\n\t}\n}",
+    "output": "Situation 1",
+    "answer": [
+        "1",
+        "2",
+        "3",
+        "4",
+        1
+    ],
+    "exp":30,
+    "point":1
+}

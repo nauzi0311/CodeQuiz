@@ -1,0 +1,15 @@
+{
+    "id": 1021,
+    "title": "繰り返し文3",
+    "question":"#include <stdio.h>\n\nint main(){\n\tint i = -1;\n\twhile(i > 0){\n\t\tprintf(\"%d\",i);\n\t\ti--;\n\t}\n\tdo{\n\t\tprintf(\"%d\",i);\n\t\ti--;\n\t}while(i > 0);\n\tprintf(\"end\");\n}",
+    "output": "???",
+    "answer": [
+        "-1-1",
+        "-1",
+        "end",
+        "-1end",
+        4
+    ],
+    "exp":30,
+    "point":1
+}
